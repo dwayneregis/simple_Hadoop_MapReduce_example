@@ -13,7 +13,7 @@ for line in sys.stdin:
     words = line.split()
 
     # set stopwords and punctuation
-    stopwords = set(['the', 'and', '.', ',', ':', ';', '-', '\'','\"', '?', '.')]
+    stopwords = set(['the', 'and', '.', ',', ':', ';', '-', '\'','\"', '?', '.'])
 
     # output tuples (word, 1) in tab-delimited format also strip off punctuation
     for word in words:
